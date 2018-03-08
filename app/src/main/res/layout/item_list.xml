@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="199dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="29dp"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imagev"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="199dp"
+        android:layout_marginLeft="22dp" />
+
+    <ImageView
+        android:id="@+id/tvthumbnailImage"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="48dp"
+        android:text="Thumbnail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toEndOf="@+id/imagev"
+        app:layout_constraintTop_toBottomOf="@+id/tvname"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginRight="176dp"
+        android:layout_marginLeft="21dp" />
+
+    <ImageView
+        android:id="@+id/imagev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginLeft="16dp" />
+</android.support.constraint.ConstraintLayout>
